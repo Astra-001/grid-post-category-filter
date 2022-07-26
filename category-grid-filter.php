@@ -63,7 +63,7 @@ function spwrk_post_grid_shortcode_mapper( $atts, $content = null ) {
 	// Posts per pages.
 	$posts_per_page = ( get_option( 'posts_per_page', true ) ) ? get_option( 'posts_per_page', true ) : 9;
 
-	// Default attributes  second 
+	// Default attributes second 
 	$shortcode_atts = shortcode_atts(
             array(
                 'show_filter' 		=> "yes",
